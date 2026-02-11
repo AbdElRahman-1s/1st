@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>flexbox challenge2</title>
+    <style>
+    div{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+      margin: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .follow-container{
+      display: flex;
+      flex-direction: row;
+      width: 350px;
+      align-items: center;
+      margin-bottom: 30px;
+      margin-left: 5px;
+    }
+    .cat{
+      width: 100%;
+      height: 50px;
+      border-radius: 50px;
+    }
+    .div-img{
+      width: 50px;
+    }
+    .div-info{
+      margin-left: 15px;
+    }
+    .div-button{
+      margin-left: 150PX;
+    }
+    .name{
+      font-weight: bold;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    .type,.status{
+      color: gray;
+    }
+    .type{
+      margin-bottom:4px
+    }
+ .button-follow{
+  background-color: rgb(0, 157, 255);
+  color: white;
+  border: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+ }
+    </style>
+  </head>
+  <body>
+    <div class="follow-container">
+      <div class="div-img">
+        <img class="cat" src="cat.jpg" alt="Error image">
+      </div>
+      <div class="div-info">
+      <p class="name">Oliver</p>
+      <p class="type">the cat</p>
+      <p class="status">Popular</p>
+    </div>
+      <div class="div-button">
+        <button class="button-follow">Follow</button>
+      </div>
+    </div>
+     <div class="follow-container">
+      <div class="div-img">
+        <img class="cat" src="cat2.jpg" alt="Error image">
+      </div>
+      <div class="div-info">
+      <p class="name">Mimi</p>
+      <p class="type">Sleepy Cat</p>
+      <p class="status">Popular</p>
+    </div>
+      <div class="div-button">
+        <button class="button-follow">Follow</button>
+      </div>
+    </div>
+     <div class="follow-container">
+      <div class="div-img">
+        <img class="cat" src="dog.jpg" alt="Error image">
+      </div>
+      <div class="div-info">
+      <p class="name">Rex</p>
+      <p class="type">Happy Bulldog</p>
+      <p class="status">Popular</p>
+    </div>
+      <div class="div-button">
+        <button class="button-follow">Follow</button>
+      </div>
+    </div>
+  </body>
+</html>

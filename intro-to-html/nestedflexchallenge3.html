@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>nestedflex challenge3</title>
+  <style>
+    p{
+      margin: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+      display: flex;
+      flex-direction: row;
+    }
+    .img-cat{
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+      margin-left: 5px;
+      margin-right: 12px;
+    }
+    .super{
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    .span-super{
+      color: rgb(137, 137, 137);
+      font-size: 16px;
+    }
+    .what{
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    .overview{
+      font-size: 18px;
+    }
+    .col2-row2{
+      display: flex;
+      flex-direction: row;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 20px;
+      border-color: rgb(206, 206, 206);
+      box-shadow: 2px 2px 3px rgba(0,0,0,0.05);
+     overflow: hidden;
+    }
+    .gray-square{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 60px;
+      padding-right: 60px;
+      background-color: rgb(207, 207, 207);
+    }
+    .p-two{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 15px;
+      line-height: 25px;
+    }
+    .youtube{
+      color: rgb(82, 82, 82);
+    }
+    .backend,.complete{
+      font-size: 17px;
+    }
+    .col2-row1{
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div class="col1">
+    <img class="img-cat" src="cat.jpg" alt="">
+  </div>
+  <div class="col2">
+    <div class="col2-row1">
+      <p class="super">supersimple.dev <span class="span-super">@SuperSimpleDev</span></p>
+      <p class="what">What is backend web development? A complete</p>
+      <p class="overview">overview. New video is up!</p>
+    </div>
+    <div class="col2-row2">
+      <div class="gray-square">
+      
+      </div>
+      <div class="p-two">
+        <p class="youtube">youtube.com</p>
+        <p class="backend">Backend web development - a</p>
+        <p class="complete">complete overview (2021)</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>

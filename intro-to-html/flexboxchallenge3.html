@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>flexbox challenge3</title>
+    <style>
+      .div{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(120, 82, 178);
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .left-section{
+        font-weight: 500;
+        font-size: 17px;
+        color: white;
+      }
+      .middle-section{
+        flex: 1;
+        margin-left: 90px;
+        margin-right: 90px;
+        max-width: 550px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 15px;
+        border: none;
+        border-radius: 25px;
+        font-size: 15px;
+      }
+      .right-section{
+        background-color: rgb(120, 82, 178);
+        color: white;
+        border-color:white;
+        border-style: solid;
+        border-width: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        Home
+      </div>
+        <input class="middle-section" type="text" placeholder="Search">
+     <button class="right-section">Download</button>
+
+    </div>
+  </body>
+</html>

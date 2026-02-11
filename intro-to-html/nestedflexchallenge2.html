@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>nestedflex challenge2</title>
+    <style>
+      p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+      }
+      .container{
+        width: 400px;
+        border-style: solid;
+        border-width: 1px;
+        border-color:rgb(218, 216, 216);
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+      }
+      .row-one{
+        color: gray;
+        font-size: 14px;
+        margin: 7px 0px 15px 12px;
+      }
+      .row-two{
+        display: flex;
+        align-items: center;
+      }
+      .img-cat{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+      }
+      .first-line{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .content{
+        margin-bottom: 30px;
+      }
+      .chewy{
+        font-weight: 550;
+        font-size: 17px;
+        margin-bottom: 4px;
+      }
+      .biggest{
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 4px;
+      }
+      .hey{
+        font-size: 15px;
+        color: gray;
+      }
+      .time{
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="second-container">
+      <div class="row-one">ALL INBOXES</div>
+      <div class="row-two">
+      <img class="img-cat" src="cat.jpg" alt="">
+      <div class="content">
+        <div class="first-line">
+           <p class="chewy">Chewy Promotions</p>
+            <div class="time">4:58 PM</div>
+        </div>
+        <p class="biggest">Biggest sales of the year!</p>
+        <p class="hey">Hey there! We're writing to tell you about our...</p>
+
+      </div>
+
+      </div>
+      </div>
+
+<div class="second-container">
+      <div class="row-two">
+      <img class="img-cat" src="dog.jpg" alt="">
+      <div class="content">
+        <div class="first-line">
+           <p class="chewy">Best Buy</p>
+            <div class="time">12:32 PM</div>
+        </div>
+        <p class="biggest">Your Best Buy eReceipt</p>
+        <p class="hey">Thank you for shopping at Best Buy, here is...</p>
+
+      </div>
+
+      </div>
+      </div>
+
+<div class="second-container">
+      <div class="row-two">
+      <img class="img-cat" src="cat2.jpg" alt="">
+      <div class="content">
+        <div class="first-line">
+           <p class="chewy">Netflix</p>
+            <div class="time">9:00 AM</div>
+        </div>
+        <p class="biggest">Here's what's coming soon to Netflix</p>
+        <p class="hey">Brand new movies and shows, old favorites...</p>
+
+      </div>
+
+      </div>
+      </div>
+
+    </div>
+  </body>
+</html>
